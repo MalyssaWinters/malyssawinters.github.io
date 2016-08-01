@@ -1665,7 +1665,7 @@
 			opacity: 0.1;
 			position: absolute;
 			top: 1.75em;
-			width: 43%;
+			width: 38%;
 		}
 
 		header.special:before {
@@ -1705,7 +1705,7 @@
 	}
 
 	footer.major {
-		padding-top: 3em;
+		padding-bottom: 3em;
         text-align: center;
 	}
 
@@ -2096,6 +2096,7 @@
 	.wrapper {
 		margin-bottom: 5em;
 		padding: 5em;
+        padding-bottom: 1em;
 	}
 
 		.wrapper.style1 {
@@ -2547,7 +2548,7 @@
 		/* Section/Article */
 
 			header.special {
-				padding-top: 5.5em;
+				padding-top: 0;
 				margin-bottom: 4em;
 			}
 
@@ -3191,5 +3192,9 @@
 			}
 
 	}
+    .img-circle {
+    border-radius: 50%;
+    padding-top:-100px;
+}
   
   
