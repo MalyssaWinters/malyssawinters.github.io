@@ -1615,6 +1615,7 @@
 		font-size: 1.15em;
 		letter-spacing: 0.025em;
 	}
+    
 
 	sub {
 		font-size: 0.8em;
@@ -1647,7 +1648,7 @@
 	}
 
 	header.major {
-		padding-bottom: 2em;
+		padding-bottom: .5em;
 	}
 
 	header.special {
@@ -1822,7 +1823,10 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+            font-size: x-large;
+            
 		}
+        
 
 		.icon.circle {
 			-moz-transition: all 0.2s ease-in-out;
@@ -1841,7 +1845,9 @@
 			top: 0;
 			width: 2.25em;
 		}
-
+        ul .icons .bottom{
+            color: rgba(243, 246, 250, 0.74) !important;
+        }
 			.icon.circle:hover {
 				top: -0.2em;
 			}
@@ -2097,6 +2103,7 @@
 		margin-bottom: 5em;
 		padding: 5em;
         padding-bottom: 1em;
+        padding-top: 3em;
 	}
 
 		.wrapper.style1 {
@@ -2497,6 +2504,7 @@
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
 		padding: 5em;
+        padding-bottom:3em;
 		text-align: center;
 	}
 
@@ -2509,7 +2517,7 @@
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 1em 1em 1em 1em;
 		text-align: center;
 	}
 
@@ -3196,5 +3204,14 @@
     border-radius: 50%;
     padding-top:-100px;
 }
+    a.icon.fa-envelope-o::before{
+        color:rgba(255, 255, 255, 0.71);
+    }
+    a.icon.fa-github::before{
+        color:rgba(255, 255, 255, 0.71);
+    }
+    a.icon.fa-linkedin::before{
+        color:rgba(255, 255, 255, 0.71);
+    }
   
   
