@@ -1881,7 +1881,7 @@
 
 			.icon.circle.fa-github {
 				background: #dcad8b;
-				color: #fff;
+				color: #fff !important;
 			}
 
 				.icon.circle.fa-github:hover {
