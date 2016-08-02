@@ -1845,9 +1845,7 @@
 			top: 0;
 			width: 2.25em;
 		}
-        ul .icons .bottom{
-            color: rgba(243, 246, 250, 0.74) !important;
-        }
+       
 			.icon.circle:hover {
 				top: -0.2em;
 			}
@@ -3204,14 +3202,17 @@
     border-radius: 50%;
     padding-top:-100px;
 }
-    a.icon.fa-envelope-o::before{
-        color:rgba(255, 255, 255, 0.71);
-    }
-    a.icon.fa-github::before{
-        color:rgba(255, 255, 255, 0.71);
-    }
-    a.icon.fa-linkedin::before{
-        color:rgba(255, 255, 255, 0.71);
-    }
+     span.fa.fa-linkedin::before{
+            color: rgba(243, 246, 250, 0.74);
+            font-size:x-large;
+        }
+     span.fa.fa-envelope-o::before{
+            color: rgba(243, 246, 250, 0.74);
+            font-size:x-large;
+        }
+     span.fa.fa-github::before{
+            color: rgba(243, 246, 250, 0.74);
+            font-size: x-large;
+        }
   
   
