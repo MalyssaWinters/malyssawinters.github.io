@@ -58,7 +58,7 @@
 
 		// Off-Canvas Navigation.
 
-			// Navigation Button.
+			 //Navigation Button.
 				$(
 					'<div id="navButton">' +
 						'<a href="#navPanel" class="toggle"></a>' +
@@ -87,9 +87,9 @@
 					});
 
 			// Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
-				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
-					$('#navButton, #navPanel, #page-wrapper')
-						.css('transition', 'none');
+				//if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
+				//	$('#navButton, #navPanel, #page-wrapper')
+				//		.css('transition', 'none');
 
 		// Header.
 		// If the header is using "alt" styling and #banner is present, use scrollwatch
