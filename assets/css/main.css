@@ -3216,4 +3216,165 @@
             color: rgba(243, 246, 250, 0.74);
             font-size: x-large;
         }
-  
+  /*pop-up*/
+ .popup .close {
+  position: absolute;
+  top:2px;
+  right: 11px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #df93b8;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+.box {
+  width: 20%;
+  background: rgba(255,255,255,0.2);
+  padding: 0px 15px 10px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+.box2 {
+  width: 20%;
+  background: rgba(255,255,255,0.2);
+  padding: 0px 15px 10px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+.box3 {
+  width: 20%;
+  background: rgba(255,255,255,0.2);
+  padding: 0px 15px 10px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.box div {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 25%
+}
+.box2 div {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 25%
+}
+.box3 div {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 25%
+}
+.box a {
+    display: block;
+    margin: 0 auto;
+    width: 290px;
+    height: 240px;
+    border-radius: 10px/10px;
+}
+.box2 a {
+    display: block;
+    margin: 0 auto;
+    width: 290px;
+    height: 240px;
+    border-radius: 10px/10px;
+}
+.box3 a {
+    display: block;
+    margin: 0 auto;
+    width: 290px;
+    height: 240px;
+    border-radius: 10px/10px;
+}
+a .close{
+    text-decoration:none !important;
+}
+
+
+.enlargebutton {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #57454D;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background-image: url('images/summer-school-mvc.PNG');
+}
+.enlargebutton2 {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #57454D;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background-image: url('images/virtual-pet.PNG');
+}
+.enlargebutton3 {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #57454D;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background-image: url('images/magic-8-ball.png');
+    background-position: top;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
